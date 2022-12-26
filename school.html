@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p>
+        <input type="text" id="id1">
+        <input type="text" id="id2">
+    </p>
+    <p>
+        <button onclick="call();">計算</button>
+    </p>
+    <p id="id3">計算結果</p>
+    <script>
+        function call() {
+            var id1 = $id("id1");
+            var id2 = $id("id2");
+            var id3 = $id("id3");
+
+            var 
+            total =parseFloat(id1.value) + parseFloat(id2.value);
+            id3.innerHTML = total;
+        }
+
+        function $id(id){
+            return document.getElementById(id);
+        }
+    </script>
+</body>
+
+</html>
