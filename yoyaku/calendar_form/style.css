@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+html {
+	background: rgb(217,192,164);
+background: radial-gradient(circle, rgba(217,192,164,0.9038209033613446) 0%, rgba(232,216,176,1) 100%);
+}
+
 .a1{
   height: 100px;
 }
@@ -50,7 +55,7 @@ td.disabled {
 }
 /*本日*/
 td.today {
-    background-color: #D65E72;
+    background-color: #db9fa9;
     color: #fff;
 }
 
@@ -60,7 +65,7 @@ td.today {
 }
 #next-prev-button button{
     cursor: pointer;
-    background: #B78D4A;
+    background: #be90459c;
     color: #fff;
     border: 1px solid #B78D4A;
     border-radius: 4px;
@@ -347,7 +352,7 @@ body{
 	line-height:100%;
 	color:#555555;
 	font-size:100%;
-	background:url(../img/body_bg.png) repeat-x top #fff;
+	/* background:url(../img/body_bg.png) repeat-x top #fff; */
 }
 h1{
 	padding-top:22px;
@@ -363,7 +368,7 @@ h2{
 	margin-bottom:10px;
 }
 #left_Contents h2{
-	background:url(../img/l_nav_title.png) no-repeat;	
+	/* background:url(../img/l_nav_title.png) no-repeat;	 */
 	font-size: 13px;
 	padding-left:35px;
 	margin-top:10px;
